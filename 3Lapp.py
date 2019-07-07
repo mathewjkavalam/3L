@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print("Jesus")
+from browser import document
+document["mainText"].textContent = "Jesus is My God"
